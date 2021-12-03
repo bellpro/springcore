@@ -58,7 +58,7 @@ public class KakaoUserService {
 // HTTP Body 생성
         MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
         body.add("grant_type", "authorization_code");
-        body.add("client_id", "61db540d862894225a4938d0133cb467");
+        body.add("client_id", "aa6f93ffc35dec2a033e18527cf15266");
         body.add("redirect_uri", "http://localhost:8080/user/kakao/callback");
         body.add("code", code);
 
